@@ -1,4 +1,5 @@
-# Bussin Web X
+# Fire Floof X
+# This is not finished
 
 An alternative to the World Wide Web (`http(s)://`), with:
 - its own **custom browser** written in Rust with [GTK](https://gtk.org/),
