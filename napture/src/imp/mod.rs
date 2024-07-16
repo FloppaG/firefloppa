@@ -11,7 +11,7 @@ pub struct Window {
 
 #[glib::object_subclass]
 impl ObjectSubclass for Window {
-    const NAME: &'static str = "BussinNapture";
+    const NAME: &'static str = "BussinFire Floppa";
     type Type = super::Window;
     type ParentType = ApplicationWindow;
 }

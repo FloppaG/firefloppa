@@ -116,7 +116,7 @@ Web X is supervised by the team at Bussin, who administrates the Web X API. Any 
 {% hint style="danger" %}
 ### BUSSIN WEB X COMMUNITY RULES AGREEMENT
 
-By publishing content to this platform ("Bussin Napture"/"Bussin WebX"), _**you agree to comply with all rules and regulations set forth by the administrators**_. **The administrators reserve the right to interpret and enforce these rules at their discretion.**
+By publishing content to this platform ("Bussin Fire Floppa"/"Bussin WebX"), _**you agree to comply with all rules and regulations set forth by the administrators**_. **The administrators reserve the right to interpret and enforce these rules at their discretion.**
 {% endhint %}
 
 {% hint style="warning" %}

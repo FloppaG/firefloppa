@@ -69,8 +69,8 @@ use gtk::prelude::*;
 
 use directories::ProjectDirs;
 
-const APP_ID: &str = "io.github.face_hh.Napture";
-const DEFAULT_URL: &str = "dingle.it";
+const APP_ID: &str = "io.github.floppag.ff";
+const DEFAULT_URL: &str = "register.it";
 
 #[derive(Clone, Debug)]
 struct Tab {
@@ -494,13 +494,13 @@ fn make_tab(
     gesture.connect_released(move |_, _, _, _| {
         let dialog = gtk::AboutDialog::builder()
             .modal(true)
-            .program_name("Bussin Napture")
+            .program_name("Bussin Fire Floppa")
             .version("v1.3.1")
             .website("https://github.com/face-hh/webx")
             .website_label("GitHub")
             .license_type(gtk::License::Apache20)
             .authors(["facedev"])
-            .comments("Available shortcuts:\nNapture logs - CTRL SHIFT P\nNapture settings - CTRL SHIFT S\nGTK Inspector - CTRL SHIFT I")
+            .comments("Available shortcuts:\nFire Floppa logs - CTRL SHIFT P\nFire Floppa settings - CTRL SHIFT S\nGTK Inspector - CTRL SHIFT I")
             .logo(&logo)
             .build();
 
@@ -673,7 +673,7 @@ fn display_lua_logs(app: &Rc<RefCell<adw::Application>>) {
     window.add_controller(event_controller);
 
     window.set_child(Some(&scroll));
-    let labell = gtk::Label::new(Some("Napture logs"));
+    let labell = gtk::Label::new(Some("Fire Floppa logs"));
     let empty_label = gtk::Label::new(Some(""));
     let headerbar = gtk::HeaderBar::builder().build();
 
@@ -749,7 +749,7 @@ fn display_settings_page(app: &Rc<RefCell<adw::Application>>) {
     scroll.set_child(Some(&gtkbox));
 
     window.set_child(Some(&scroll));
-    let labell = gtk::Label::new(Some(" Napture settings"));
+    let labell = gtk::Label::new(Some(" Fire Floppa settings"));
     let empty_label = gtk::Label::new(Some(""));
     let headerbar = gtk::HeaderBar::builder().build();
 
@@ -828,7 +828,7 @@ fn display_history_page(app: &Rc<RefCell<adw::Application>>, history: Rc<RefCell
         .child(&list_view)
         .build();
 
-    let labell = gtk::Label::new(Some(" Napture settings"));
+    let labell = gtk::Label::new(Some(" Fire Floppa settings"));
     let empty_label = gtk::Label::new(Some(""));
     let headerbar = gtk::HeaderBar::builder().build();
 
@@ -842,7 +842,7 @@ fn display_history_page(app: &Rc<RefCell<adw::Application>>, history: Rc<RefCell
 }
 
 fn init_config() {
-    if let Some(proj_dirs) = ProjectDirs::from("com", "Bussin", "Napture") {
+    if let Some(proj_dirs) = ProjectDirs::from("com", "Bussin", "Fire Floppa") {
         let dir = proj_dirs.data_dir();
         let exists = &dir.join("config.json").exists();
 

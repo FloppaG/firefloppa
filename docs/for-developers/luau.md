@@ -98,7 +98,7 @@ end)
 {% endhint %}
 
 {% hint style="success" %}
-Output from the `print()` function will be logged by Napture Logs. As we told you before, you can open them with `CONTROL` + `SHIFT` + `P`
+Output from the `print()` function will be logged by Fire Floppa Logs. As we told you before, you can open them with `CONTROL` + `SHIFT` + `P`
 {% endhint %}
 
 ### HTTP Fetching
@@ -221,7 +221,7 @@ input.on_submit(function()
 
 | Function   | x                                                           | Return                                                | Explanation                                 |
 | ---------- | ----------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------- |
-| `print(x)` | `x` can be any type.                                        | No return.                                            | Will print `x` to Napture Logs.             |
+| `print(x)` | `x` can be any type.                                        | No return.                                            | Will print `x` to Fire Floppa Logs.             |
 | `fetch(x)` | `x` must be an array with the contents of the HTTP request. | Returns the response of the HTTP request as a string. | Allows to make HTTP requests to fetch APIs. |
 
 {% hint style="info" %}

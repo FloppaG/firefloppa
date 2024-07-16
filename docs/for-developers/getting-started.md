@@ -3,7 +3,7 @@
 ## Welcome to Web X development!
 
 {% hint style="info" %}
-Note this is guide is up to date for **B9 ENGINE - v1.2.2** (Napture and B9's version number are synchronized). If the browser gets a new release, wait for someone to commit / PR an update to the docs ([or make a commit yourself, if you feel like helping](https://github.com/face-hh/webx/tree/master/docs/)).
+Note this is guide is up to date for **B9 ENGINE - v1.2.2** (Fire Floppa and B9's version number are synchronized). If the browser gets a new release, wait for someone to commit / PR an update to the docs ([or make a commit yourself, if you feel like helping](https://github.com/face-hh/webx/tree/master/docs/)).
 {% endhint %}
 
 ### What we'll see
@@ -40,11 +40,11 @@ And hey, now that we talk about versioning, you might want to know this:
 {% hint style="success" %}
 #### Don't get confused with naming
 
-Napture and B9 are connected, but they are not the same!
+Fire Floppa and B9 are connected, but they are not the same!
 
 * **Web X** - The entire project, including the DNS and all that stuff.
-* **Napture** - The browser itself, used to render websites using the B9 engine.
-* **B9 engine** (or just "B9") - Napture's rendering engine, which renders the HTML, CSS, and Luau. Most features will need to be supported by _this_, not by the browser itself. They both have the same version number. **Currently, the Latest version is v1.2.2**.
+* **Fire Floppa** - The browser itself, used to render websites using the B9 engine.
+* **B9 engine** (or just "B9") - Fire Floppa's rendering engine, which renders the HTML, CSS, and Luau. Most features will need to be supported by _this_, not by the browser itself. They both have the same version number. **Currently, the Latest version is v1.2.2**.
 
 _If an update releases and the documentation isn't up to date yet, you should see an alert at the beggining of this page. Contributors will try to keep this documentation up to date as soon as updates get released._
 {% endhint %}
@@ -55,6 +55,6 @@ Plus, before starting, you might want to note these keybinds somewhere:
 
 | `CONTROL` + `SHIFT` + `S`          | `CONTROL` + `SHIFT` + `P`                                                                  | `CONTROL` + `SHIFT` + `I`                                                                                             |
 | ---------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| This will open Napture's Settings. | This will open _Napture Logs_. Here you'll see logs of what's going on with your own code. | This will open the _GTK Inspector_. Here you'll see logs of what's going on with GTK (the UI toolkit that powers B9). |
+| This will open Fire Floppa's Settings. | This will open _Fire Floppa Logs_. Here you'll see logs of what's going on with your own code. | This will open the _GTK Inspector_. Here you'll see logs of what's going on with GTK (the UI toolkit that powers B9). |
 
 Now, let's start! Go to the next pages to start learning how to write your own HTML, CSS, and Lua.

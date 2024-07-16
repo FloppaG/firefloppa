@@ -10,7 +10,7 @@ An alternative to the World Wide Web (`http(s)://`), with:
 ![Preview of buss://register.it, the frontend for registering domains](.github_assets/image.png)
 
 # File structure
-- `/napture` - The source code for the **browser** Bussin Napture, used to view buss:// sites.
+- `/napture` - The source code for the **browser** Bussin Fire Floppa, used to view buss:// sites.
 - `/dns` - The source code for the **DNS** (Domain Name System), used for the API at `https://api.buss.lol`
 - `/dingle` - The source code for the official **search engine** (API) of Web X. For the frontend, check [dingle frontend repo](https://github.com/face-hh/dingle-frontend)
 - [registrar](https://github.com/face-hh/webx-registrar) - The source code for `buss://register.it`, frontend for `https://api.buss.lol` made for Bussin Web X. This can also serve as an example for how buss:// sites are made.
@@ -149,9 +149,9 @@ So you wish to publish a website to Web X? Great! Let's go through the rules:
 9. If your website is involved in fradulent activities, scams, or deceptive practices, it will be removed.
 10. If your website contains content that encourages harmful behavior, including self-harm, suicide, substance abuse, or dangerous challanges, it will be removed.
 
-By publishing content to this platform ("Bussin Napture"/"Bussin Web X"), you agree to comply with all rules and regulations set forth by the administrators. The administrators reserve the right to interpret and enforce these rules at their discretion. To report websites that are not following the listed rules, please contact `FaceDev` on either [Twitter](https://twitter.com/facedevstuff) or [Discord](https://discord.gg/cNwWvdWj42).
+By publishing content to this platform ("Bussin Fire Floppa"/"Bussin Web X"), you agree to comply with all rules and regulations set forth by the administrators. The administrators reserve the right to interpret and enforce these rules at their discretion. To report websites that are not following the listed rules, please contact `FaceDev` on either [Twitter](https://twitter.com/facedevstuff) or [Discord](https://discord.gg/cNwWvdWj42).
 
-Now, to register a website, navigate to `buss://register.it` **through Bussin Napture**.
+Now, to register a website, navigate to `buss://register.it` **through Bussin Fire Floppa**.
 
 You will see this interface.
 ![Preview of buss://register.it, the frontend for registering domains](.github_assets/image.png)
@@ -168,7 +168,7 @@ Don't worry! The IP doesn't have to be valid, and you can save the domain for la
 **WARNING**: After creating the domain, you'll be shown a **secret key**. Please make sure to save it as you will need it to Update/Delete your domain.
 
 # Run website locally
-Bussin Napture fetches `index.html` at whatever path you give it. For example, if you enter `http://localhost:3000`, Napture will fetch `http://localhost:3000/index.html`. From the index.html, if you have further `<link>` or `<script>` imports, they will be fetched at `http://localhost:3000/file.(css|lua)`.
+Bussin Fire Floppa fetches `index.html` at whatever path you give it. For example, if you enter `http://localhost:3000`, Fire Floppa will fetch `http://localhost:3000/index.html`. From the index.html, if you have further `<link>` or `<script>` imports, they will be fetched at `http://localhost:3000/file.(css|lua)`.
 
 1. To locally test a website, you can use something like [Python](https://www.python.org/):
 ```bash
@@ -229,6 +229,6 @@ For those coming from the traditional web...
 
 I believe you'd get a better understand if you explored the [registrar](https://github.com/face-hh/webx-registrar) repository's `script.lua`.
 
-NOTE: Bussin Napture doesn't support `buss://` redirects yet. They will be added in the official release.
+NOTE: Bussin Fire Floppa doesn't support `buss://` redirects yet. They will be added in the official release.
 
 Made by FaceDev with pure utter hatred and undesire :D

@@ -25,12 +25,12 @@
 
   postInstall = ''
     mkdir -p $out/share/metainfo $out/share/applications $out/share/icons
-    install -Dm644 $src/io.github.face_hh.Napture.metainfo.xml -t $out/share/metainfo/
-    install -Dm644 $src/io.github.face_hh.Napture.desktop -t $out/share/applications/
-    install -Dm644 $src/io.github.face_hh.Napture.svg -t $out/share/icons/hicolor/scalable/apps/
+    install -Dm644 $src/io.github.floppag.ff.metainfo.xml -t $out/share/metainfo/
+    install -Dm644 $src/io.github.floppag.ff.desktop -t $out/share/applications/
+    install -Dm644 $src/io.github.floppag.ff.svg -t $out/share/icons/hicolor/scalable/apps/
 
     # updating the `Exec` field
-    substituteInPlace $out/share/applications/io.github.face_hh.Napture.desktop \
+    substituteInPlace $out/share/applications/io.github.floppag.ff.desktop \
       --replace napture $out/bin/webx
   '';
 

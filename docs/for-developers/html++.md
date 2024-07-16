@@ -97,14 +97,14 @@ Currently, you can use the following HTML tags:
 
 * Headers (`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`) and paragraphs (`<p>`). Headers will be bigger or smaller based on the number, being 1 the biggest and 6 the smallest.
 * Anchors (or hyperlinks) (`<a>`), which can have a `href` property (`<a href="#>`).
-  * If the href starts with `buss://`, Napture will open it and redirect the user away from your page. If it starts with anything else, GTK will handle it and automaticaly open your default WWW browser.
+  * If the href starts with `buss://`, Fire Floppa will open it and redirect the user away from your page. If it starts with anything else, GTK will handle it and automaticaly open your default WWW browser.
 * Divisions (`<div>`), basically containers where you can put your tags to organise your page.
 * Lists, which can be ordered (`<ol>`) or unordered (`<ul>`). Both can have list items (`<li>`) in them.
 * Horizontal rule (`<hr>`), which creates a horizontal line on the entire page.
 * Images (`<img>`), with a `src` property for the local path / HTTP URI of the image. They are unresizeable, so your image must already be of the desired size (use any image editing tool for that, e.g. [GIMP](https://www.gimp.org/)).
 
 {% hint style="warning" %}
-Additionally, **as of B9 v1.2.2** images are currently broken on _Windows_; and will only work if you follow the [Guide of Compilation for Napture - Windows.](https://github.com/face-hh/webx?tab=readme-ov-file#windows-1)
+Additionally, **as of B9 v1.2.2** images are currently broken on _Windows_; and will only work if you follow the [Guide of Compilation for Fire Floppa - Windows.](https://github.com/face-hh/webx?tab=readme-ov-file#windows-1)
 {% endhint %}
 
 * Inputs (`<input>`) are one-line text fields. You can interact with them with Web X's Lua API.

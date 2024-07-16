@@ -17,7 +17,7 @@ build() {
 package() {
     cd "$srcdir/webx/napture"
     install -Dm755 "target/release/webx" "$pkgdir/usr/bin/napture"
-    install -Dm644 "io.github.face_hh.Napture.metainfo.xml" -t "$pkgdir/usr/share/metainfo/"
-    install -Dm644 "io.github.face_hh.Napture.desktop" -t "$pkgdir/usr/share/applications/"
-    install -Dm644 "io.github.face_hh.Napture.svg" -t "$pkgdir/usr/share/icons/hicolor/scalable/apps/"
+    install -Dm644 "io.github.floppag.ff.metainfo.xml" -t "$pkgdir/usr/share/metainfo/"
+    install -Dm644 "io.github.floppag.ff.desktop" -t "$pkgdir/usr/share/applications/"
+    install -Dm644 "io.github.floppag.ff.svg" -t "$pkgdir/usr/share/icons/hicolor/scalable/apps/"
 }

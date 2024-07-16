@@ -1,10 +1,10 @@
 # User manual
 
-## First thing first: Install Napture.
+## First thing first: Install Fire Floppa.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Bussin Napture v1.2.2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Bussin Fire Floppa v1.2.2</p></figcaption></figure>
 
-This is the guide to install **Bussin Napture**, the official Web X browser.
+This is the guide to install **Bussin Fire Floppa**, the official Web X browser.
 
 ### Linux
 

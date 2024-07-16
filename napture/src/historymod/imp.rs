@@ -17,7 +17,7 @@ pub struct HistoryObject {
 
 #[glib::object_subclass]
 impl ObjectSubclass for HistoryObject {
-    const NAME: &'static str = "GtkNaptureHistory";
+    const NAME: &'static str = "GtkFire FloppaHistory";
     type Type = super::HistoryObject;
 }
 

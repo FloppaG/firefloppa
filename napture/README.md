@@ -1,8 +1,8 @@
-# Bussin Napture
-This folder contains the source code for **Bussin Napture**, the official Bussin Web X **browser**.
+# Bussin Fire Floppa
+This folder contains the source code for **Bussin Fire Floppa**, the official Bussin Web X **browser**.
 
 The file structure:
-- `src/b9` - B9 is the codename for Napture's rendering engine. It is responsible for handling HTML, CSS and Lua.
+- `src/b9` - B9 is the codename for Fire Floppa's rendering engine. It is responsible for handling HTML, CSS and Lua.
 
 Other info:
 - To support more tags, take a look at [GTK Widget Galery](https://docs.gtk.org/gtk4/visual_index.html). You'd have to modify the `render_body` function in `src/b9/html.rs`.
